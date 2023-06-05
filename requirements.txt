@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.2
+Django==4.1.7
+Pillow==9.4.0
+requests==2.28.2
+textdistance==4.5.0
+weasyprint==58.1
+webdriver-manager==3.8.6
+

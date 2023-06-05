@@ -1,0 +1,21 @@
+{% extends 'includes/base.html' %}
+{%load static %}
+
+{% block title %}MediMart | Home{% endblock %}
+
+{% block content %}
+<div class="container banner-image my-5 d-flex align-items-center justify-content-center" style="background-image: url('{% static 'images/banner-img.jpg' %}');">
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4 text-white">Medi Mart</h1>
+            <p class="lead text-white">Upload your prescription and get your Medicines delivered at your doorsteps.</p>
+            <br>
+            <a class="btn btn-lg" href="{% url 'login' %}" role="button" style='background: linear-gradient(to right, #FF4B2B, #FF416C);'>Order Now</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+{% endblock %}
